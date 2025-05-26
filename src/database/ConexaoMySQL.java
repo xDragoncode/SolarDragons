@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexaoMySQL {
-    private static final String URL = "jdbc:mysql://localhost:3306/dragonscode_solar?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";         // ajuste conforme seu MySQL
-    private static final String PASSWORD = "sua_senha"; // coloque sua senha aqui
+    private static final String URL = "jdbc:mysql://localhost:3306/solarDragons?useSSL=false&serverTimezone=UTC";
+    private static final String USER = "root";
+    private static final String PASSWORD = "anima123";
 
-    // Carrega o driver (geralmente opcional em JDBC 4+)
+    // Carrega o driver
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
